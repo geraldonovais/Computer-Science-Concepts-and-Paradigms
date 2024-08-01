@@ -3,6 +3,6 @@ Concepts, Paradigms and Design Patterns in Computer Science to develop higher qu
 
 # SOLID PRINCIPLES
 
-## SINLGE RESPONSABILITY
+## Single Responsibility
 
-## LISKOV SUBSTITUTION
+## Liskov Substitution
