@@ -23,7 +23,7 @@ Encapsulation is the principle of bundling the data (attributes) and the methods
 Inheritance is a mechanism where a new class (child or subclass) inherits attributes and methods from an existing class (parent or superclass). This allows the child class to reuse code from the parent class and extend or override functionality as needed.
 
 **Benefits**: 
-* Inheritance promotes code reuse, making it easier to create and maintain complex systems.
+* Inheritance promotes **_code reuse_**, making it easier to create and maintain complex systems.
 * It also helps establish a natural hierarchy and relationship between classes, making it easier to model real-world scenarios.
 
 ## Polymorphism
@@ -31,7 +31,7 @@ Inheritance is a mechanism where a new class (child or subclass) inherits attrib
 Polymorphism allows objects of different classes to be treated as objects of a common superclass. It enables a single function or method to work in different ways depending on the object or data it is operating on. There are two main types: method overriding (runtime polymorphism) and method overloading (compile-time polymorphism).
 
 **Benefits**:
-* Flexibility and extensibility by adding new classes without modifying existing code.
+* **_Flexibility and extensibility_** by adding new classes without modifying existing code.
 * Simplifies code by using a common interface for different data types.
 * Improves code readability and maintainability.
 
