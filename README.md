@@ -8,14 +8,14 @@ Concepts, Paradigms and Design Patterns in Computer Science to develop higher qu
 Abstraction involves hiding complex implementation details and showing only the essential features of an object. It allows you to focus on interactions at a higher level, without needing to understand the intricate details of how something works.
 
 **Benefits**: 
-* It simplifies the interaction with objects by providing a clear, simplified interface and reducing the complexity of the code.
+* It simplifies the interaction with objects by providing a clear, _simplified interface_ and reducing the complexity of the code.
 * It helps in managing and working with complex systems by breaking them down into more manageable parts.
 ## Encapsulation
 
 Encapsulation is the principle of bundling the data (attributes) and the methods (functions) that operate on the data into a single unit or class. It also involves restricting direct access to some of the object's components, which can help prevent unintended interference and misuse.
 
 **Benefits**: 
-* It promotes modularity and separation of concerns, making code easier to manage, understand, and maintain.
+* It promotes _modularity and separation of concerns_, making code easier to manage, understand, and maintain.
 * It hides the internal state of an object and only exposes a controlled interface for interaction.
 
 ## Inheritance
