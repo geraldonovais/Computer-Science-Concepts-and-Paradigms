@@ -1,6 +1,12 @@
 # Computer Science: Concepts and Paradigms
 Concepts, Paradigms and Design Patterns in Computer Science to develop higher quality code
 
+# Os 4 Pilares da Orientação a Objetos
+1. Abstração
+2. Encapsulamento
+3. Herança
+4. Polimorfismo
+
 # Solid Principles
 
 ## Single Responsibility
