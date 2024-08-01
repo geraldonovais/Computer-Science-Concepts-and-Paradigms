@@ -28,6 +28,8 @@ Inheritance is a mechanism where a new class (child or subclass) inherits attrib
 
 ## Polymorphism
 
+Polymorphism allows objects of different classes to be treated as objects of a common superclass. It enables a single function or method to work in different ways depending on the object or data it is operating on. There are two main types: method overriding (runtime polymorphism) and method overloading (compile-time polymorphism).
+
 **Benefits**:
 * Flexibility and extensibility by adding new classes without modifying existing code.
 * Simplifies code by using a common interface for different data types.
