@@ -1,11 +1,15 @@
 # Computer Science: Concepts and Paradigms
 Concepts, Paradigms and Design Patterns in Computer Science to develop higher quality code
 
-# Os 4 Pilares da Orientação a Objetos
-1. Abstração
-2. Encapsulamento
-3. Herança
-4. Polimorfismo
+# The four pillars of Object Oriented Programming
+
+## Abstraction
+## Encapsulation
+## Inheritance
+## Polymorphism
+* Flexibility and extensibility by adding new classes without modifying existing code.
+* Simplifies code by using a common interface for different data types.
+* Improves code readability and maintainability.
 
 # Solid Principles
 
