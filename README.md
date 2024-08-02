@@ -10,6 +10,7 @@ Abstraction involves hiding complex implementation details and showing only the 
 **Benefits**: 
 * It simplifies the interaction with objects by providing a clear, **_simplified interface_** and reducing the complexity of the code.
 * It helps in managing and working with complex systems by breaking them down into more manageable parts.
+
 ## Encapsulation
 
 Encapsulation is the principle of bundling the data (attributes) and the methods (functions) that operate on the data into a single unit or class. It also involves restricting direct access to some of the object's components, which can help prevent unintended interference and misuse.
@@ -34,6 +35,10 @@ Polymorphism allows objects of different classes to be treated as objects of a c
 * **_Flexibility and extensibility_** by adding new classes without modifying existing code.
 * Simplifies code by using a common interface for different data types.
 * Improves code readability and maintainability.
+
+> [!In summary]
+> _Abstraction_ promotes a simple commom interface for a class of objects, _Encapsulation_ promotes modularity and separation of concerns, _Inheritance_ makes code reuse easier
+> and Polymorphism, promotes flexibility and extensibility.
 
 # Solid Principles
 
