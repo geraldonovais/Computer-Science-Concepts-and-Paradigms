@@ -36,9 +36,9 @@ Polymorphism allows objects of different classes to be treated as objects of a c
 * Simplifies code by using a common interface for different data types.
 * Improves code readability and maintainability.
 
-> [!IN SUMMARY]
-> _Abstraction_ promotes a simple commom interface for a class of objects, _Encapsulation_ promotes modularity and separation of concerns, _Inheritance_ makes code reuse easier
-> and Polymorphism, promotes flexibility and extensibility.
+**In Summary**
+
+**_Abstraction_** promotes a simple commom interface for a class of objects, **_Encapsulation_** promotes modularity and separation of concerns, **_Inheritance_** makes code reuse easier and **_Polymorphism_**, promotes flexibility and extensibility.
 
 # Solid Principles
 
