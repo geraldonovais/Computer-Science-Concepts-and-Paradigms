@@ -63,7 +63,7 @@ Coupling refers to the degree of dependence between different components or clas
 
 * Flexibility and Extensibility: High levels of abstraction contribute to flexibility and ease of extension. Since abstract classes or interfaces define expected behaviors without dictating specific implementations, new implementations can be added with minimal changes to the existing codebase.
 
-In summary, abstraction and coupling are closely related in OOP. Proper use of abstraction can significantly reduce coupling, leading to more modular, flexible, and maintainable code. 
+> In summary, abstraction and coupling are closely related in OOP. Proper use of abstraction can significantly reduce coupling, leading to more modular, flexible, and maintainable code. 
 
 # Solid Principles
 
