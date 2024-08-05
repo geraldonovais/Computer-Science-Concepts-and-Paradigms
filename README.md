@@ -59,9 +59,11 @@ Coupling refers to the degree of dependence between different components or clas
 
 ## Maintaining Abstraction and Low Coupling
 
- * Modularity: Abstraction supports modular design by allowing different parts of a system to be developed, tested, and maintained independently. When classes are designed with high levels of abstraction, their interactions are managed through well-defined interfaces, reducing the risk of changes in one module affecting others.
+* Modularity: Abstraction supports modular design by allowing different parts of a system to be developed, tested, and maintained independently. When classes are designed with high levels of abstraction, their interactions are managed through well-defined interfaces, reducing the risk of changes in one module affecting others.
 
- * Flexibility and Extensibility: High levels of abstraction contribute to flexibility and ease of extension. Since abstract classes or interfaces define expected behaviors without dictating specific implementations, new implementations can be added with minimal changes to the existing codebase.
+* Flexibility and Extensibility: High levels of abstraction contribute to flexibility and ease of extension. Since abstract classes or interfaces define expected behaviors without dictating specific implementations, new implementations can be added with minimal changes to the existing codebase.
+
+In summary, abstraction and coupling are closely related in OOP. Proper use of abstraction can significantly reduce coupling, leading to more modular, flexible, and maintainable code. 
 
 # Solid Principles
 
