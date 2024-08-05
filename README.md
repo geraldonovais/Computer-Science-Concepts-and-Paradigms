@@ -43,6 +43,26 @@ Polymorphism allows objects of different classes to be treated as objects of a c
 * **_Inheritance_** makes code reuse easier
 * **_Polymorphism_** promotes flexibility and extensibility.
 
+# Relationship Between Abstraction and Coupling
+
+## Abstraction
+Abstraction in OOP refers to the concept of hiding the complex implementation details of an object and exposing only the essential features. It allows a programmer to interact with an object using a simplified interface without needing to understand its internal workings.
+
+## Coupling
+Coupling refers to the degree of dependence between different components or classes in a system. Low coupling means that classes or components are independent and changes in one have minimal impact on others. High coupling means that classes or components are tightly dependent on each other.
+
+## Reducing Coupling through Abstraction
+
+* Encapsulation: Abstraction helps reduce coupling by encapsulating data and behavior within a class. When you use well-defined interfaces or abstract classes, the concrete implementation details are hidden, which minimizes the direct dependencies between classes. For example, if class A interacts with class B through an interface or an abstract class, A does not need to know the specifics of B’s implementation.
+
+* Interfaces and Abstract Classes: By programming to an interface rather than a concrete implementation, you reduce the dependency between components. This means that if class B changes, class A might not need to be modified as long as B still adheres to the same interface.
+
+## Maintaining Abstraction and Low Coupling
+
+ * Modularity: Abstraction supports modular design by allowing different parts of a system to be developed, tested, and maintained independently. When classes are designed with high levels of abstraction, their interactions are managed through well-defined interfaces, reducing the risk of changes in one module affecting others.
+
+ * Flexibility and Extensibility: High levels of abstraction contribute to flexibility and ease of extension. Since abstract classes or interfaces define expected behaviors without dictating specific implementations, new implementations can be added with minimal changes to the existing codebase.
+
 # Solid Principles
 
 ## Single Responsibility
