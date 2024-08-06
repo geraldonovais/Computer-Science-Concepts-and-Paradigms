@@ -65,6 +65,14 @@ Coupling refers to the degree of dependence between different components or clas
 
 > In summary, abstraction and coupling are closely related in OOP. Proper use of abstraction can significantly reduce coupling, leading to more modular, flexible, and maintainable code. 
 
+# Dependecy Injection
+
+Dependency injection is a programming technique in which an object or function receives other objects or functions that it requires, as opposed to creating them internally. Dependency injection aims to separate the concerns of constructing objects and using them, leading to loosely coupled programs. The pattern ensures that an object or function that wants to use a given service should not have to know how to construct those services. Instead, the receiving 'client' (object or function) is provided with its dependencies by external code (an 'injector').
+Dependency injection makes implicit dependencies explicit and helps solve the following problems:
+
+* How can a class be independent from the creation of the objects it depends on?
+* How can an application, and the objects it uses support different configurations?
+    
 # Solid Principles
 
 ## Single Responsibility
