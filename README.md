@@ -148,15 +148,9 @@ $userService->setDatabase($database);
     
 # Solid Principles
 
-## Single Responsibility
+## Single Responsibility Principle (SRP)
 
-## Liskov Substitution
-
-This priciple stands that If S is a subtype of T, then objects of type T in a program may be replaced with objects of type S without altering any of the desirable properties of that program.
-
-In practical software development it defines that objects of a superclass could be replaceable with objects of its subclasses without breaking the application.
-
-**Violating SOLID principles can result in several issues:**
+**Violating SRP principles can result in several issues:**
 
 * Reduced cohesion;
 * Increased coupling;
@@ -164,3 +158,11 @@ In practical software development it defines that objects of a superclass could 
 * Difficulty in reusing code.
 * Fragile Codebase
 * Unnecessary Complexity
+
+## Liskov Substitution
+
+This priciple stands that If S is a subtype of T, then objects of type T in a program may be replaced with objects of type S without altering any of the desirable properties of that program.
+
+In practical software development it defines that objects of a superclass could be replaceable with objects of its subclasses without breaking the application.
+
+
