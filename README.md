@@ -83,7 +83,10 @@ Dependency injection is a programming technique to manage dependencies between c
 **1. Constructor Injection:**
 
 Dependencies are provided through the class's constructor.  
-Example in PHP:
+
+<details>
+    
+<summary>Example in PHP:</summary>
 
 ```php
 class Database {
@@ -104,10 +107,16 @@ class UserService {
 $database = new Database();
 $userService = new UserService($database);
 ```
+</details>
+
 **2. Setter Injection:**
 
 Dependencies are provided through setter methods.  
 Example in PHP:
+
+<details>
+    
+<summary>Example in PHP:</summary>
 
 ```php
 class Database {
@@ -129,7 +138,8 @@ $database = new Database();
 $userService = new UserService();
 $userService->setDatabase($database);
 ```
-
+</details>
+    
 ## Benefits of Dependency Injection
 
 * Loose Coupling: Classes are not tightly bound to their dependencies, making them easier to change or replace.
