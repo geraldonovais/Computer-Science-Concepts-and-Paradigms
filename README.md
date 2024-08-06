@@ -150,7 +150,7 @@ $userService->setDatabase($database);
 
 ## Single Responsibility Principle (SRP)
 
-**Violating SRP principles can result in several issues:**
+**Violating SRP can result in several issues:**
 
 * Reduced cohesion;
 * Increased coupling;
