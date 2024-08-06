@@ -112,7 +112,6 @@ $userService = new UserService($database);
 **2. Setter Injection:**
 
 Dependencies are provided through setter methods.  
-Example in PHP:
 
 <details>
     
