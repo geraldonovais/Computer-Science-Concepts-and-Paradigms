@@ -67,11 +67,23 @@ Coupling refers to the degree of dependence between different components or clas
 
 # Dependecy Injection
 
-Dependency injection is a programming technique in which an object or function receives other objects or functions that it requires, as opposed to creating them internally. Dependency injection aims to separate the concerns of constructing objects and using them, leading to loosely coupled programs. The pattern ensures that an object or function that wants to use a given service should not have to know how to construct those services. Instead, the receiving 'client' (object or function) is provided with its dependencies by external code (an 'injector').
-Dependency injection makes implicit dependencies explicit and helps solve the following problems:
+Dependency injection is a programming technique to manage dependencies between classes or components. It involves providing an object with its dependencies, rather than the object creating them itself. This pattern promotes loose coupling and enhances the testability, maintainability, and flexibility of code. Dependency injection makes implicit dependencies explicit and helps solve the following problems:
 
 * How can a class be independent from the creation of the objects it depends on?
 * How can an application, and the objects it uses support different configurations?
+
+## How Dependency Injection Works:
+
+**Dependencies**: These are the objects or services that a class needs to perform its functions. For example, a class that manages user authentication might need a database connection as a dependency.
+
+**Injection**: Instead of a class instantiating its dependencies directly, they are "injected" into the class from the outside, typically through constructors, setters, or interfaces.
+
+## Benefits of Dependency Injection:
+
+* Loose Coupling: Classes are not tightly bound to their dependencies, making them easier to change or replace.
+* Improved Testability: Dependencies can be easily mocked or stubbed during unit testing.
+* Flexibility: Makes it easier to swap out implementations of dependencies without modifying the dependent class.
+* Maintainability: Code is more modular and easier to maintain or extend over time.
     
 # Solid Principles
 
