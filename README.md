@@ -72,13 +72,13 @@ Dependency injection is a programming technique to manage dependencies between c
 * How can a class be independent from the creation of the objects it depends on?
 * How can an application, and the objects it uses support different configurations?
 
-## How Dependency Injection Works:
+## How Dependency Injection Works
 
 **Dependencies**: These are the objects or services that a class needs to perform its functions. For example, a class that manages user authentication might need a database connection as a dependency.
 
 **Injection**: Instead of a class instantiating its dependencies directly, they are "injected" into the class from the outside, typically through constructors, setters, or interfaces.
 
-## Benefits of Dependency Injection:
+## Benefits of Dependency Injection
 
 * Loose Coupling: Classes are not tightly bound to their dependencies, making them easier to change or replace.
 * Improved Testability: Dependencies can be easily mocked or stubbed during unit testing.
