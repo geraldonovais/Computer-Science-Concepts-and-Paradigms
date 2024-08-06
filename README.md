@@ -78,6 +78,28 @@ Dependency injection is a programming technique to manage dependencies between c
 
 **Injection**: Instead of a class instantiating its dependencies directly, they are "injected" into the class from the outside, typically through constructors, setters, or interfaces.
 
+## Types of Dependency Injection
+
+´´´php
+class Database {
+    // Database connection logic
+}
+
+class UserService {
+    private $database;
+
+    public function __construct(Database $database) {
+        $this->database = $database;
+    }
+
+    // Methods that use the database dependency
+}
+
+// Usage
+$database = new Database();
+$userService = new UserService($database);
+
+´´´
 ## Benefits of Dependency Injection
 
 * Loose Coupling: Classes are not tightly bound to their dependencies, making them easier to change or replace.
