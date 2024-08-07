@@ -150,7 +150,7 @@ $userService->setDatabase($database);
 
 ## 1. Single Responsibility Principle (SRP)
 
-**Definition**: A class should have only one reason to change, meaning it should have only one job or responsibility.
+**Definition**: A class should have only one reason to change, meaning it should have only one job or responsibility.  
 **Explanation**: If a class has multiple responsibilities, it becomes more prone to changes and errors. By adhering to SRP, each class focuses on a single task, making the system easier to understand, maintain, and test.
 
 **Violating SRP can result in several issues:**
@@ -164,21 +164,20 @@ $userService->setDatabase($database);
 
 ## 2. Open/Closed Principle (OCP)
 
-**Definition**: Software entities (classes, modules, functions, etc.) should be open for extension but closed for modification.
+**Definition**: Software entities (classes, modules, functions, etc.) should be open for extension but closed for modification.  
 **Explanation**: This means you can extend the behavior of a class through inheritance or composition without altering its existing code. This helps prevent bugs in existing code and makes the system more adaptable to changes.
 
-## 3. Liskov Substitution
+## 3. Liskov Substitution Principle (LSP)
 
-This priciple stands that If S is a subtype of T, then objects of type T in a program may be replaced with objects of type S without altering any of the desirable properties of that program.
-
-In practical software development it defines that objects of a superclass could be replaceable with objects of its subclasses without breaking the application.
+**Definition**: Objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.  
+**Explanation**: A subclass should be able to replace its parent class without causing errors or altering the expected behavior. This ensures that the subclass adheres to the contract established by the superclass.
 
 ## 4. Interface Segregation Principle (ISP)
 
-**Definition**: A client should not be forced to depend on interfaces it does not use.
+**Definition**: A client should not be forced to depend on interfaces it does not use.  
 **Explanation**: Instead of one large interface, create smaller, more specific ones so that clients only need to know about the methods that are of interest to them. This reduces the complexity and dependencies in the system.
 
 ## 5. Dependency Inversion Principle (DIP)
 
-**Definition**: High-level modules should not depend on low-level modules. Both should depend on abstractions. Also, abstractions should not depend on details; details should depend on abstractions.
+**Definition**: High-level modules should not depend on low-level modules. Both should depend on abstractions. Also, abstractions should not depend on details; details should depend on abstractions.  
 **Explanation**: This principle emphasizes the importance of relying on interfaces or abstract classes rather than concrete implementations. It helps in reducing tight coupling between components, making the system more modular and easier to maintain.
