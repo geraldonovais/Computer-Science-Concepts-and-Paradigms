@@ -1,5 +1,5 @@
 # Computer Science: Concepts and Paradigms
-Concepts and Paradigms in Computer Science to develop higher quality code.
+Concepts and Paradigms in Computer Science to develop higher quality code
 
 # The four pillars of Object Oriented Programming
 
