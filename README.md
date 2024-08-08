@@ -3,7 +3,7 @@ Concepts, Paradigms and Design Patterns in Computer Science to develop higher qu
 
 # The four pillars of Object Oriented Programming
 
-## Abstraction
+## 1. Abstraction
 
 Abstraction involves hiding complex implementation details and showing only the essential features of an object. It allows you to focus on interactions at a higher level, without needing to understand the intricate details of how something works.
 
@@ -11,7 +11,7 @@ Abstraction involves hiding complex implementation details and showing only the 
 * It simplifies the interaction with objects by providing a clear, **_simplified interface_** and reducing the complexity of the code.
 * It helps in managing and working with complex systems by breaking them down into more manageable parts.
 
-## Encapsulation
+## 2. Encapsulation
 
 Encapsulation is the principle of bundling the data (attributes) and the methods (functions) that operate on the data into a single unit or class. It also involves restricting direct access to some of the object's components, which can help prevent unintended interference and misuse.
 
@@ -19,7 +19,7 @@ Encapsulation is the principle of bundling the data (attributes) and the methods
 * It promotes **_modularity and separation of concerns_**, making code easier to manage, understand, and maintain.
 * It hides the internal state of an object and only exposes a controlled interface for interaction.
 
-## Inheritance
+## 3. Inheritance
 
 Inheritance is a mechanism where a new class (child or subclass) inherits attributes and methods from an existing class (parent or superclass). This allows the child class to reuse code from the parent class and extend or override functionality as needed.
 
@@ -27,7 +27,7 @@ Inheritance is a mechanism where a new class (child or subclass) inherits attrib
 * Inheritance promotes **_code reuse_**, making it easier to create and maintain complex systems.
 * It also helps establish a natural hierarchy and relationship between classes, making it easier to model real-world scenarios.
 
-## Polymorphism
+## 4. Polymorphism
 
 Polymorphism allows objects of different classes to be treated as objects of a common superclass. It enables a single function or method to work in different ways depending on the object or data it is operating on. There are two main types: method overriding (runtime polymorphism) and method overloading (compile-time polymorphism).
 
