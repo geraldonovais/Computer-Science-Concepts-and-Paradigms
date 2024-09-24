@@ -5,7 +5,7 @@ Concepts and Paradigms in Computer Science to develop higher quality code.
 
 ## 1. Abstraction
 
-Abstraction involves hiding complex implementation details and showing only the essential features of an object. It allows you to focus on interactions at a higher level, without needing to understand the intricate details of how something works.
+Abstraction involves hiding complex implementation details and showing only the essential features of an object. It allows you to focus on interactions at a higher level, without needing to understand the intricate details of how something works. In general it's always good practice use abstractions, interfaces instead of concrete classes. Depend on abstractions, not on concretions It means, coding to interfaces, not to concrete classes.
 
 **Benefits**: 
 * It simplifies the interaction with objects by providing a clear, **_simplified interface_** and reducing the complexity of the code.
